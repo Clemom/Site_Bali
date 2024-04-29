@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Bali";
+  src: url("../Media/Fonts/Balingkang/balingkang-webfont.woff2") format("woff2"),
+    url("../Media/Fonts/Balingkang/balingkang-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Argesta";
+  src: url("../Media/Fonts/Argesta-Display-Regular-web/argestadisplay-regular-webfont.woff2")
+      format("woff2"),
+    url("../Media/Fonts/Argesta-Display-Regular-web/argestadisplay-regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #282828;
+}
+
+nav {
+  height: 100px;
+  background: #1a2f35;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header-background {
+  background-image: url("../Media/Photo/Photo_accueil_Shiva.jpg");
+  background-size: cover;
+  background-position: 0px 0px;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2px;
+}
+
+.nav-list a {
+  color: #f7f6f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.nav-list img {
+  max-height: 10vh;
+  min-width: 5vw;
+}
+
+.logo span {
+  font-family: "Bali", sans serif;
+  font-size: 55px;
+  font-weight: 200;
+  color: #f7f6f5;
+}
+
+.bandeau-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  background: #f7f6f5;
+  box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+}
+
+.selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 250px;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.liste-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.resume-unite {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 270px;
+  gap: 15px;
+  border-bottom: 1px solid rgb(124, 124, 124, 0.2);
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+  font-weight: 700;
+}
+
+.resume-unite img {
+  width: 30px;
+}
+
+.carte img {
+  width: 750px;
+  padding: 25px;
+  transition: transform 0.7s ease-in-out;
+}
+
+.carte img:hover {
+  transform: scale(1.45);
+}
+
+.container-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 500px;
+  width: 70%;
+  background: #aab5a8;
+  border-radius: 10px;
+  z-index: -1000;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 60px;
+}
+
+.texte-description {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 450px;
+}
+
+.texte-description h2 {
+  color: white;
+  margin-bottom: 25px;
+  font-family: "Argesta";
+  font-size: 1.9em;
+  font-weight: 200;
+}
+
+.texte-description p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  font-size: 0.8em;
+}
+
+.grid-description {
+  display: grid;
+  grid-template-columns: repeat(13,1fr); 
+  grid-template-rows: repeat(13,1fr);
+  width: 40%;
+  height: 100%;
+}
+
+.grid-description > div{
+  overflow: hidden;
+}
+
+.grid-description img {
+  height: auto;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.photo-grid1 {
+  grid-column: 4/10 ;
+  grid-row: 2/7;
+}
+
+.photo-grid1 img {
+  object-fit: contain; 
+  scale: 190%;
+  width: 100%;
+  height: 100%; 
+}
+
+.photo-grid2 {
+  grid-column:7/13 ;
+  grid-row: 3/9;
+}
+
+.photo-grid2 img {
+  object-fit: contain; 
+  scale: 150%;
+  width: 100%;
+  height: 100%; 
+
+}
+
+.photo-grid3 {
+  grid-column: 5/11 ;
+  grid-row: 8/13;
+}
+
+.photo-grid3 img {
+  object-fit: contain; 
+  scale: 150%;
+  width: 100%;
+  height: 100%; 
+}
