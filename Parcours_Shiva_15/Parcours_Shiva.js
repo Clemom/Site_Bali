@@ -7,7 +7,7 @@ document.getElementById('btn15').addEventListener('click', function() {
   });
   
   function loadParcours(duration) {
-    fetch('Parcours_Shiva.json')
+    fetch('https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Shiva_15/Parcours_Shiva.json')
       .then(response => response.json())
       .then(data => {
         const parcours = data.parcours.filter(p => p.duree === duration);
