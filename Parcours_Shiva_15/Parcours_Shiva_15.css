@@ -289,18 +289,23 @@ span {
   font-weight: 700;
 }
 
-.selection-parcours a {
+button {
   border: 1px solid #282828;
   color: #282828;
-  padding: 7px 20px;
+  padding: 7px 25px;
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
   transition: color 0.2s ease-in-out;
+  background-color: white;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  cursor: pointer;
 }
 
-.selection-parcours a:hover {
-  color: white;
-  background: #282828;
+button:hover {
+    color: white;
+    background: #282828;
 }
 
 .parcours {
