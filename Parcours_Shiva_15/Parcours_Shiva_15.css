@@ -100,8 +100,7 @@ h1 {
   align-items: center;
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 450px;
-  width: 100%;
+  margin-left: 850px;
   height: 50vh;
   flex-direction: column;
 }
