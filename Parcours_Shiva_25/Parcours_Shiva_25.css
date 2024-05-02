@@ -1,0 +1,789 @@
+@font-face {
+    font-family: "Bali";
+    src: url("../Media/Fonts/Balingkang/balingkang-webfont.woff2") format("woff2"),
+      url("../Media/Fonts/Balingkang/balingkang-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Argesta";
+    src: url("../Media/Fonts/Argesta-Display-Regular-web/argestadisplay-regular-webfont.woff2")
+        format("woff2"),
+      url("../Media/Fonts/Argesta-Display-Regular-web/argestadisplay-regular-webfont.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #282828;
+  }
+  
+  nav {
+    height: 100px;
+    background: #1a2f35;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 10em;
+    font-weight: normal;
+    font-family: 'Argesta';
+  }
+  
+  .header-background {
+    background-image: url("../Media/Photo/Photo_accueil_Shiva.jpg");
+    background-size: cover;
+    background-position: 0px 0px;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    color: white;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2px;
+  }
+  
+  .nav-list a {
+    color: #f7f6f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+  
+  .nav-list img {
+    max-height: 10vh;
+    min-width: 5vw;
+  }
+  
+  .logo span {
+    font-family: "Bali", sans serif;
+    font-size: 55px;
+    font-weight: 200;
+    color: #f7f6f5;
+  }
+  
+  .retour {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 45px;
+    opacity: 80%;
+  }
+  
+  .retour img {
+    width: 30px;
+    margin-right: 5px;
+  }
+  
+  .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 850px;
+    height: 50vh;
+    flex-direction: column;
+  }
+  
+  .h1 p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.2em;
+  }
+  
+  .bandeau-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background: #f7f6f5;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+  }
+  
+  .selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+  }
+  
+  .resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 250px;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  
+  .liste-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .resume-unite {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 270px;
+    gap: 15px;
+    border-bottom: 1px solid rgb(124, 124, 124, 0.2);
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  span {
+    font-weight: 700;
+  }
+  
+  .resume-unite img {
+    width: 30px;
+  }
+  
+  .carte img {
+    width: 750px;
+    padding: 25px;
+    transition: transform 0.7s ease-in-out;
+  }
+  
+  .carte img:hover {
+    transform: scale(1.45);
+  }
+  
+  .container-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 500px;
+    width: 70%;
+    background: #aab5a8;
+    border-radius: 10px;
+    z-index: -1000;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 60px;
+  }
+  
+  .texte-description {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 450px;
+  }
+  
+  .texte-description h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-family: "Argesta";
+    font-size: 1.9em;
+    font-weight: 200;
+  }
+  
+  .texte-description p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 0.8em;
+  }
+  
+  .grid-description {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    width: 40%;
+    height: 100%;
+  }
+  
+  .grid-description > div {
+    overflow: hidden;
+  }
+  
+  .grid-description img {
+    height: auto;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .photo-grid1 {
+    grid-column: 2/9;
+    grid-row: 2/7;
+  }
+  
+  .photo-grid1 img {
+    object-fit: contain;
+    scale: 190%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .photo-grid2 {
+    grid-column: 7/13;
+    grid-row: 3/10;
+  }
+  
+  .photo-grid2 img {
+    object-fit: contain;
+    scale: 150%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .photo-grid3 {
+    grid-column: 3/12;
+    grid-row: 8/13;
+  }
+  
+  .photo-grid3 img {
+    object-fit: contain;
+    scale: 150%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .selection-parcours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+  }
+  
+  .selection-parcours p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  
+  .selection-parcours a {
+    border: 1px solid #282828;
+    color: #282828;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .selection-parcours a:hover {
+    color: white;
+    background: #282828;
+  }
+  
+  .parcours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .container-parcours1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 80%;
+    background: #f7f6f5;
+    border-radius: 10px;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 60px;
+  }
+  
+  .container-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container-intro h1 {
+    font-family: "Argesta";
+    border-bottom: 1px solid black;
+    font-weight: 100;
+    font-size: 2.5em;
+  }
+  
+  .container-intro p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  .container-carte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+  }
+  
+  .carte-parcours {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.2);
+    background: white;
+    width: 400px;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .carte-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .carte-contenu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-size: 1em;
+    margin-left: 25px;
+    width: 350px;
+  }
+  
+  .carte-contenu h4 {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    color: #798f71;
+  }
+  
+  .carte-info {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .bouton-plus {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  
+  .bouton-plus a {
+    border: 1px solid #282828;
+    color: #282828;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .bouton-plus a:hover {
+    color: white;
+    background: #282828;
+  }
+  
+  .container-decouvrir {
+    width: 100%;
+    height: 750px;
+    background: #aab5a8;
+  }
+  
+  .titre-decouvrir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .titre-decouvrir h4 {
+    text-transform: uppercase;
+    font-family: "Argesta";
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .container-carte-decouvrir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+  }
+  
+  .carte-parcours-decouvrir {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.2);
+    background: white;
+    width: 550px;
+    height: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .carte-image-hanuman {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: 0% 25%;
+    display: block;
+  }
+  
+  .carte-image-ganesh {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    display: block;
+  }
+  
+  .carte-contenu-decouvrir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  .carte-contenu-decouvrir h4 {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: #798f71;
+    font-family: 'Argesta';
+    font-weight: 200;
+    font-size: 1.3em;
+  }
+  
+  .carte-infos-decouvrir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+  }
+  
+  .carte-infos-duree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-size: 1em;
+  }
+  
+  .bouton-decouvrir {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .bouton-decouvrir a {
+    border: 1px solid #282828;
+    color: #ffffff;
+    background: #282828;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: scale 0.4s ease-in-out;
+  }
+  
+  .bouton-decouvrir a:hover {
+    scale: 95%;
+    color: white;
+    background: #282828;
+  }
+  
+  .bandeau-voyageur {
+    background: #d6cdc7;
+    height: 760px;
+    width: 100%;
+    margin-top: 150px;
+  }
+  
+  h3 {
+    font-family: "Argesta";
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .container-voyageur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 160px;
+  }
+  
+  .container-carte {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 1150px;
+  }
+  
+  .carte-voyageur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F7F6F5;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+  }
+  
+  .photo-voyageur {
+    display: block;
+    width: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  .nom-voyageur {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+  }
+  
+  .titre-voyageur {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+  }
+  
+  .description-carte {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 210px;
+    width: 280px;
+    line-height: 22px;
+  }
+  
+  .bandeau-noir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    width: 100%;
+    height: 180px;
+    background: #282828;
+  }
+  
+  .bandeau-noir p {
+    color: #F7F6F5;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .bouton-contact {
+    color: #F7F6F5;
+    padding: 12px 35px 12px 35px;
+    border: 1px solid #F7F6F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bouton-contact:hover {
+    transform: scale(0.95);
+  }
+  
+  .bandeau-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    width: 100%;
+    height: 300px;
+    background: #aab5a8;
+  }
+  
+  .container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    width: 100%;
+  }
+  
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo-nom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #F7F6F5;
+    font-family: "Bali";
+    font-size: 3.5em;
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  
+  .logo-nom img {
+  width: 100px;
+  }
+  
+  .logo-nom a {
+    color: #F7F6F5;
+  }
+  
+  .trait {
+    width: 200px;
+    height: 1px;
+    background: #282828;
+    margin-left: 15px;
+    opacity: 30%;
+  }
+  
+  .reseau-sociaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 25px;
+    gap: 15px;
+  }
+  
+  .reseau-sociaux img {
+    width: 35px;
+  }
+  
+  .adresse-footer {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 230px;
+  line-height: 21px;
+  gap: 15px;
+  }
+  
+  .text-adresse {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .text-adresse span:first-child {
+    color: #F7F6F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  
+  .text-adresse span:last-child {
+    color: #F7F6F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+  }
+  
+  
+  .trait1 {
+    width: 200px;
+    height: 1px;
+    background: #282828;
+    opacity: 30%;
+  }
+  
+  .newsletter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+  }
+  
+  .text-newsletter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .newsletter .text-newsletter span:first-child { 
+    color: #F7F6F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  
+  .newsletter .text-newsletter span:last-child { 
+    color: #F7F6F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+  }
+  
+  input {
+    height: 45px;
+    border: none;
+    padding-left: 10px;
+  }
+  
+  .souscrire{
+    color: #F7F6F5;
+    background: #282828;
+    border: 1px solid #282828;
+    padding: 12px 35px 12px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .souscrire:hover {
+    background-color: #AAB5A8;
+  }
+  
