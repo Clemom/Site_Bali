@@ -45,14 +45,6 @@ h1 {
   font-family: 'Argesta';
 }
 
-#fauxChargement {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-}
-
 .header-background {
   background-image: url("../Media/Photo/Photo_accueil_Shiva.jpg");
   background-size: cover;
@@ -316,6 +308,11 @@ button:hover {
     background: #282828;
 }
 
+.active-button {
+  color: white;
+  background: #282828;
+}
+
 #parcoursContainer {
   display: flex;
   justify-content: center;
@@ -325,11 +322,20 @@ button:hover {
   margin-top: 100px;
   margin-bottom: 100px;
   opacity: 0;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease;
 }
 
 #parcoursContainer.visible {
   opacity: 1; 
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.visible {
+  opacity: 1;
 }
 
 .container-parcours1 {
