@@ -1,0 +1,158 @@
+{
+    "parcours": [
+        {
+            "titre": "Ubud",
+            "jours": "Jours 1 à 3",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 21 - Dernier journée plage",
+                    "description": "Avant de conclure cette aventure, nous vous proposons de vous reposer sur cette plage balinaise.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 20/Firefly Exploration des plages et des villages traditionnels de l_île Nusa Lembongan (Bali) 81364.jpg"
+                },
+                {
+                    "jour": "Jour 19 - Le marché de Bali",
+                    "description": "Journée dédiée à parcourir un marché local de Bali.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 19/3e80fb01-fcb5-49f9-9678-272ba1352bb9.webp"
+                },
+                {
+                    "jour": "Jour 5 - Initiation à la cuisine balinaise",
+                    "description": "Préparation de plats typiques balinais avec un chef local.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 4/45f35c1e-12a5-47db-963d-74f2546559b7.jpg"
+                }
+            ]
+        },
+        {
+            "titre": "Sidemen",
+            "jours": "Jours 4 à 6",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 4 - Balade à vélo à travers les villages balinais",
+                    "description": "Exploration à vélo de plusieurs villages balinais avec un guide.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 3/Firefly Balade à vélo à travers les villages balinais, visite des temples locaux. 56753.jpg"
+                },
+                {
+                    "jour": "Jour 3 - Marché traditionnel et cours de cuisine",
+                    "description": "Visite du marché du centre-ville d'Ubud et participation à un cours de cuisine balinaise.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 2/Firefly Visite du marché traditionnel d_Ubud, participation à un cours de cuisine balinaise 63326.jpg"
+                },
+                {
+                    "jour": "Jour 6 - Atelier de création manuelle",
+                    "description": "Création manuelle d'objets de décoration représentant la culture balinaise.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 5/Firefly à Sidemen (Bali), rencontre avec des artisans locaux, initiation à l_artisanat traditionnel..jpg"
+                }
+            ]
+        },
+        {
+            "titre": "Pemuteran",
+            "jours": "Jours 7 à 9",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 7 - Découverte du yoga",
+                    "description": "Initiation au yoga avec un maître balinais renommé.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 6/Firefly Randonnée dans les rizières et les collines de Sidemen, méditation au coucher du soleil. 972.jpg"
+                },
+                {
+                    "jour": "Jour 8 - Baptême de plongée",
+                    "description": "Découverte des fonds marins dans le mer de Bali (une initiation sera réalisé pour les débutants).",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 8/Firefly Snorkeling ou plongée sous-marine pour explorer la beauté des fonds marins. 81364.jpg"
+                },
+                {
+                    "jour": "Jour 9 - Visite du temple Bukhultoum",
+                    "description": "Visite de l'un des plus anciens temples de l'île.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 9/photo2jpg.jpg"
+                }
+            ]
+        },
+        {
+            "titre": "Lovina",
+            "jours": "Jours 10 à 12",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 10 - Journée détente à la plage",
+                    "description": "Balade à vélo à travers les villages balinais, visite des temples locaux.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 10/AdobeStock_97357909.jpeg"
+                },
+                {
+                    "jour": "Jour 11 - Activités aquatique",
+                    "description": "Nager avec des dauphins, une expérience unique.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 11/AdobeStock_78785189.jpeg"
+                },
+                {
+                    "jour": "Jour 12 - Découverte de la jungle sainte",
+                    "description": "Exploration de la fameuse jungle sainte combinant spiritualité et activité physique.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 12/Firefly Excursion aux cascades de Gitgit (Bali), méditation au pied des chutes. 81364.jpg"
+                }
+            ]
+        },
+        {
+            "titre": "Amed",
+            "jours": "Jours 13 à 15",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 13 - Soirée bien-être",
+                    "description": "Soirée dédiée au bien-être avec spa, massage, et hammam.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 13/3bf4da90-e5f6-41a0-8391-ede3ad52e7f4.webp"
+                },
+                {
+                    "jour": "Jour 14 - Exploration sous-marine",
+                    "description": "Plongée à la découverte d'épaves et observation de la faune sous-marine à Amed.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 14/Firefly Plongée en apnée ou en bouteille à la découverte des épaves sous-marines, à Amed 97213.jpg"
+                },
+                {
+                    "jour": "Jour 15 - Randonnée sur les sommets de Bali",
+                    "description": "Randonnée matinale offrant des vues spectaculaires sur les paysages de Bali depuis le sommet de Jemeluk.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 15/Firefly Randonnée au lever du soleil jusqu_au point de vue de Jemeluk à Bali 97213.jpg"
+                }
+            ]
+        },
+        {
+            "titre": "Amed",
+            "jours": "Jours 16 à 18",
+            "duree": "20jours",
+            "activites": [
+                {
+                    "jour": "Jour 16 - Rencontre balinaises",
+                    "description": "Sur la côte, vous découvrirez le quotidien des pêcheurs balinais.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 16/AdobeStock_414691904.jpeg"
+                },
+                {
+                    "jour": "Jour 17 - Détente et spiritualité",
+                    "description": "Au cœur du plus grand parc de Bali, découvrez la faune et la flore du pays.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 17/AdobeStock_506384501.jpeg"
+                },
+                {
+                    "jour": "Jour 18 - Surf et méditation",
+                    "description": "Découvrez le surf sur les plus belle vagues du pays (une initiation est prévu pour les débutants).",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 18/Firefly méditation sur la plage de Candidasa (Bali) 81364.jpg"
+                }
+            ]
+        },
+        {
+            "titre": "Amed",
+            "jours": "Jours 19 à 21",
+            "duree": "20jours",
+            "activites": [
+                {
+                    "jour": "Jour 2 - Visite du temple Nbundhu",
+                    "description": "Découverte d'un temple abandonné avec un guide local.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 1/AdobeStock_132006617.jpeg"
+                },
+                {
+                    "jour": "Jour 20 -  Découverte d'un nouveau style de yoga",
+                    "description": "Une introspection complète en pratiquant un style de yoga bien précis de Bali.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 21/Firefly Méditation face à l_océan au coucher du soleil, à Nusa Lembongan (Bali) 97213.jpg"
+                },
+                {
+                    "jour": "jour 1 - Arrivée à Ubud",
+                    "description": "Installation dans une villa traditionnelle.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 1/0fd50555-ca96-47c4-8128-7edc720268af.webp"
+                }
+            ]
+        }
+    ]
+}
