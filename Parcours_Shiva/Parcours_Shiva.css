@@ -322,7 +322,7 @@ button:hover {
   margin-top: 100px;
   margin-bottom: 100px;
   opacity: 0;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.5s ease;
 }
 
 #parcoursContainer.visible {
@@ -331,7 +331,6 @@ button:hover {
 
 .hidden {
   opacity: 0;
-  transition: opacity 1s ease;
 }
 
 .visible {

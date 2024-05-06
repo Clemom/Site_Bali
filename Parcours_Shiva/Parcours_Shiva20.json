@@ -6,17 +6,17 @@
             "duree": "15jours",
             "activites": [
                 {
-                    "jour": "Jour 21 - Dernier journée plage",
+                    "jour": "Jour 1 - Dernier journée plage",
                     "description": "Avant de conclure cette aventure, nous vous proposons de vous reposer sur cette plage balinaise.",
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 20/Firefly Exploration des plages et des villages traditionnels de l_île Nusa Lembongan (Bali) 81364.jpg"
                 },
                 {
-                    "jour": "Jour 19 - Le marché de Bali",
+                    "jour": "Jour 2 - Le marché de Bali",
                     "description": "Journée dédiée à parcourir un marché local de Bali.",
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 19/3e80fb01-fcb5-49f9-9678-272ba1352bb9.webp"
                 },
                 {
-                    "jour": "Jour 5 - Initiation à la cuisine balinaise",
+                    "jour": "Jour 3 - Initiation à la cuisine balinaise",
                     "description": "Préparation de plats typiques balinais avec un chef local.",
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 4/45f35c1e-12a5-47db-963d-74f2546559b7.jpg"
                 }
@@ -33,7 +33,7 @@
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 3/Firefly Balade à vélo à travers les villages balinais, visite des temples locaux. 56753.jpg"
                 },
                 {
-                    "jour": "Jour 3 - Marché traditionnel et cours de cuisine",
+                    "jour": "Jour 5 - Marché traditionnel et cours de cuisine",
                     "description": "Visite du marché du centre-ville d'Ubud et participation à un cours de cuisine balinaise.",
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 2/Firefly Visite du marché traditionnel d_Ubud, participation à un cours de cuisine balinaise 63326.jpg"
                 },
@@ -138,7 +138,7 @@
             "duree": "20jours",
             "activites": [
                 {
-                    "jour": "Jour 2 - Visite du temple Nbundhu",
+                    "jour": "Jour 19 - Visite du temple Nbundhu",
                     "description": "Découverte d'un temple abandonné avec un guide local.",
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 1/AdobeStock_132006617.jpeg"
                 },
@@ -148,7 +148,7 @@
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 21/Firefly Méditation face à l_océan au coucher du soleil, à Nusa Lembongan (Bali) 97213.jpg"
                 },
                 {
-                    "jour": "jour 1 - Arrivée à Ubud",
+                    "jour": "Départ - Départ de Ubud",
                     "description": "Installation dans une villa traditionnelle.",
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 1/0fd50555-ca96-47c4-8128-7edc720268af.webp"
                 }
