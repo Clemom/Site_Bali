@@ -6,8 +6,8 @@
             "duree": "15jours",
             "activites": [
                 {
-                    "jour": "Jour 1 - Dernier journée plage",
-                    "description": "Avant de conclure cette aventure, nous vous proposons de vous reposer sur cette plage balinaise.",
+                    "jour": "Jour 1 - Découverte des maisons",
+                    "description": "Avant de débuter cette aventure, nous vous proposons de vous reposer sur cette plage balinaise.",
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 20/Firefly Exploration des plages et des villages traditionnels de l_île Nusa Lembongan (Bali) 81364.jpg"
                 },
                 {
@@ -149,7 +149,7 @@
                 },
                 {
                     "jour": "Départ - Départ de Ubud",
-                    "description": "Installation dans une villa traditionnelle.",
+                    "description": "Dernier soin et Préparation au départ",
                     "image": "../Media/Photo/Photo Parcours/PARCOURS 1 - SHIVA/Jour 1/0fd50555-ca96-47c4-8128-7edc720268af.webp"
                 }
             ]
