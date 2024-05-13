@@ -1,3 +1,8 @@
+document.querySelector(".retour a").addEventListener("click" , function (event){
+  event.preventDefault();
+  retourPage();
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     chargerParcours("15jours");
   });
@@ -20,19 +25,23 @@ document.addEventListener("DOMContentLoaded", function () {
       button.classList.add("active-button");
     })
   })
+
+  function retourPage(){
+    history.back();
+  }
   
   function chargerParcours(duree) {
-    let jsonPath;
+    let jsonParcours;
 
     if (duree === "25jours"){
-        jsonPath ="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Shiva/Parcours_Shiva25.json";
+        jsonParcours ="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Shiva/Parcours_Shiva25.json";
     } else if (duree ==="20jours"){
-        jsonPath="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Shiva/Parcours_Shiva20.json";
+        jsonParcours="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Shiva/Parcours_Shiva20.json";
     } else {
-        jsonPath="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Shiva/Parcours_Shiva15.json"
+        jsonParcours="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Shiva/Parcours_Shiva15.json"
     }
 
-    fetch(jsonPath)
+    fetch(jsonParcours)
       .then((response) => response.json())
       .then((data) => {
         let filtreParcours;
