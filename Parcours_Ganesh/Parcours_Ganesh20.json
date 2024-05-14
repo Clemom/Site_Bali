@@ -1,0 +1,159 @@
+{
+    "parcours": [
+        {
+            "titre": "Sanur",
+            "jours": "Jours 1 à 3",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 1 - Arrivée à Sanur",
+                    "description": "Départ pour Sanur, installation dans un hôtel près de la plage.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 13/d6207072-d186-4d34-a41c-dbe4b5f2e320.jpg"
+                },
+                {
+                    "jour": "Jour 2 - Activités nautiques",
+                    "description": "Cours de stand-up paddle le long de la côte de Sanur.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 14/Cours-paddle.jpg"
+                },
+                {
+                    "jour": "Jour 3 - Détente et massage",
+                    "description": "Journée de détente et de massage pour récupérer de l'effort physique.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 15/massage.jpeg"
+                }
+            ]
+        },
+        
+        {
+            "titre": "Munduk",
+            "jours": "Jours 4 à 6",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 4 - Arrivée à Munduk",
+                    "description": "Transfert à Munduk, séjour dans un éco-lodge en harmonie avec la nature.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 4/AdobeStock_371538749.jpeg"
+                },
+                {
+                    "jour": "Jour 5 - Randonnée et méditation",
+                    "description": "Randonnée vers les cascades de Munduk et méditation près des chutes d'eau.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 5/AdobeStock_221418391.jpeg"
+                },
+                {
+                    "jour": "Jour 6 - Plantations de café",
+                    "description": "Exploration des plantations de café et  dégustation.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 6/AdobeStock_218022193.jpeg"
+                }
+            ]
+        },
+        {
+            "titre": "Amed",
+            "jours": "Jours 7 à 9",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 7 - Arrivée à Amed",
+                    "description": "Voyage à Amed, installation dans un bungalow en bord de mer.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 7/3bf4da90-e5f6-41a0-8391-ede3ad52e7f4.webp"
+                },
+                {
+                    "jour": "Jour 8 - Activités nautiques",
+                    "description": "Plongée en apnée ou en bouteille à la découverte des épaves sous-marines.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 8/AdobeStock_413849323.jpeg"
+                },
+                {
+                    "jour": "Jour 9 - Randonnée",
+                    "description": "Randonnée au lever du soleil jusqu'au point de vue de Jemeluk.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 9/4871abf6-6dd5-4bf5-adeb-1a3591732fdb.jpeg"
+                }
+            ]
+        },
+        {
+            "titre": "Nusa Lembongan",
+            "jours": "Jours 10 à 12",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "Jour 10 - Arrivée à Nusa Lembongan",
+                    "description": "Transfert à Nusa Lembongan, séjour dans une villa en bord de falaise.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 10/82eff056-e81c-4a3b-90c8-d99c45300fd6.webp"
+                },
+                {
+                    "jour": "Jour 11 - Plages et excursion en kayak",
+                    "description": "Exploration des plages et des récifs coralliens lors d'une excursion en kayak.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 11/Firefly Exploration des plages et des récifs coralliens lors d_une excursion en kayak, Bali 40862.jpg"
+                },
+                {
+                    "jour": "Jour 12 - Snorkeling",
+                    "description": "Snorkeling autour de l'île pour découvrir la vie marine colorée. ",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 12/Firefly Snorkeling autour de l_île pour découvrir la vie marine colorée, Nusa Lembongan (Bali) 22253.jpg"
+                }
+            ]
+        },
+        {
+            "titre": "Canggu",
+            "jours": "Jours 1 à 3",
+            "duree": "15jours",
+            "activites": [
+                {
+                    "jour": "jour 13 - Arrivée à Canggu",
+                    "description": "Arrivée à Canggu, séjour dans une villa près de la plage.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 1/90262adfc48460ed2bbce600f74f44e8.webp"
+                },
+                {
+                    "jour": "Jour 14 - Balade à vélo à travers les villages balinais",
+                    "description": "Excursion en VTT à travers les rizières et les villages.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 3/6dcbcb3c-8471-478e-a795-b7b9dd0bcb08.jpeg"
+                },
+                {
+                    "jour": "Jour 15 - Baptême de surf",
+                    "description": "Cours de surf ou yoga matinal sur la plage.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 2/AdobeStock_398489366.jpeg"
+                }
+            ]
+        },
+        {
+            "titre": "Uluwatu",
+            "jours": "Jours 16 à 18",
+            "duree": "20jours",
+            "activites": [
+                {
+                    "jour": "Jour 16 - Arrivée à Uluwatu",
+                    "description": "Voyage à Uluwatu, séjour dans une villa avec vue sur l'océan.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 16/AdobeStock_276073771.jpeg"
+                },
+                {
+                    "jour": "Jour 17 - Surf",
+                    "description": "Session de surf sur les célèbres vagues d'Uluwatu.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 17/Firefly Session de surf sur les célèbres vagues d_Uluwatu 96630.jpg"
+                },
+                {
+                    "jour": "Jour 18 - Randonnée",
+                    "description": "Randonnée jusqu'à la plage isolée de Nyang Nyang pour une journée de farniente.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 18/Firefly Randonnée jusqu_à la plage isolée de Nyang Nyang (Bali) pour une journée de farniente. 22253.jpg"
+                }
+            ]
+        },
+        {
+            "titre": "Jimbaran",
+            "jours": "Jours 19 à 20",
+            "duree": "20jours",
+            "activites": [
+                {
+                    "jour": "Jour 19 - Arrivée à Jimbaran",
+                    "description": "Transfert à Jimbaran, séjour dans une villa de luxe.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 19/da9f2fae-ec85-4217-a012-ba6c59d362d7.webp"
+                },
+                {
+                    "jour": "Jour 20 - Détente et massage",
+                    "description": "Journée de détente sur la plage de Jimbaran avec massage balinais.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 20/AdobeStock_455001676.jpeg"
+                },
+                {
+                    "jour": "Départ - Départ de Bali",
+                    "description": "Dernier soin et Préparation au départ",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 21/Firefly Dégustation de fruits de mer frais lors d_un dîner sur la plage au coucher du soleil. 63326.jpg"
+                }
+            ]
+        }
+    ]
+} 
