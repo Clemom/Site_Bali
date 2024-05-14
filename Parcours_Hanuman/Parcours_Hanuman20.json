@@ -1,27 +1,28 @@
 {
     "parcours": [
         {
-            "titre": "Canggu",
+            "titre": "Sanur",
             "jours": "Jours 1 à 3",
             "duree": "15jours",
             "activites": [
                 {
-                    "jour": "jour 1 - Arrivée à Canggu",
-                    "description": "Arrivée à Canggu, séjour dans une villa près de la plage.",
-                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 1/90262adfc48460ed2bbce600f74f44e8.webp"
+                    "jour": "Jour 1 - Arrivée à Sanur",
+                    "description": "Départ pour Sanur, installation dans un hôtel près de la plage.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 13/d6207072-d186-4d34-a41c-dbe4b5f2e320.jpg"
                 },
                 {
-                    "jour": "Jour 2 - Balade à vélo à travers les villages balinais",
-                    "description": "Excursion en VTT à travers les rizières et les villages.",
-                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 3/6dcbcb3c-8471-478e-a795-b7b9dd0bcb08.jpeg"
+                    "jour": "Jour 2 - Activités nautiques",
+                    "description": "Cours de stand-up paddle le long de la côte de Sanur.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 14/Cours-paddle.jpg"
                 },
                 {
-                    "jour": "Jour 3 - Baptême de surf",
-                    "description": "Cours de surf ou yoga matinal sur la plage.",
-                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 2/AdobeStock_398489366.jpeg"
+                    "jour": "Jour 3 - Détente et massage",
+                    "description": "Journée de détente et de massage pour récupérer de l'effort physique.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 15/massage.jpeg"
                 }
             ]
         },
+        
         {
             "titre": "Munduk",
             "jours": "Jours 4 à 6",
@@ -89,24 +90,24 @@
             ]
         },
         {
-            "titre": "Sanur",
-            "jours": "Jours 13 à 15",
+            "titre": "Canggu",
+            "jours": "Jours 1 à 3",
             "duree": "15jours",
             "activites": [
                 {
-                    "jour": "Jour 13 - Arrivée à Sanur",
-                    "description": "Départ pour Sanur, installation dans un hôtel près de la plage.",
-                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 13/d6207072-d186-4d34-a41c-dbe4b5f2e320.jpg"
+                    "jour": "jour 13 - Arrivée à Canggu",
+                    "description": "Arrivée à Canggu, séjour dans une villa près de la plage.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 1/90262adfc48460ed2bbce600f74f44e8.webp"
                 },
                 {
-                    "jour": "Jour 14 - Activités nautiques",
-                    "description": "Cours de stand-up paddle le long de la côte de Sanur.",
-                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 14/Cours-paddle.jpg"
+                    "jour": "Jour 14 - Balade à vélo à travers les villages balinais",
+                    "description": "Excursion en VTT à travers les rizières et les villages.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 3/6dcbcb3c-8471-478e-a795-b7b9dd0bcb08.jpeg"
                 },
                 {
-                    "jour": "Jour 15 - Détente et massage",
-                    "description": "Journée de détente et de massage pour récupérer de l'effort physique.",
-                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 15/massage.jpeg"
+                    "jour": "Jour 15 - Baptême de surf",
+                    "description": "Cours de surf ou yoga matinal sur la plage.",
+                    "image": "../Media/Photo/Photo Parcours/PARCOURS 2 - HANUMAN/Jour 2/AdobeStock_398489366.jpeg"
                 }
             ]
         },
