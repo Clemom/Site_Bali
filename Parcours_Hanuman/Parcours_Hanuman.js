@@ -34,7 +34,7 @@ document.querySelector(".retour a").addEventListener("click" , function (event){
       let jsonParcours;
   
       if (duree === "25jours"){
-          jsonParcours ="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_SHanumanParcours_Hanuman25.json";
+          jsonParcours ="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Hanuman/Parcours_Hanuman25.json";
       } else if (duree ==="20jours"){
           jsonParcours="https://raw.githubusercontent.com/Clemom/Site_Bali/main/Parcours_Hanuman/Parcours_Hanuman20.json";
       } else {
