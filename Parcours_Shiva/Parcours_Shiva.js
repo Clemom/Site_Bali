@@ -109,6 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
       container.classList.remove("hidden");
       container.classList.add("visible");
-    }, 200);
+    }, 300);
   }
   
