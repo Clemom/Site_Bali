@@ -363,9 +363,10 @@
   
   .container-intro h1 {
     font-family: "Argesta";
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
     font-weight: 100;
     font-size: 2.5em;
+    color: black;
   }
   
   .container-intro p {
