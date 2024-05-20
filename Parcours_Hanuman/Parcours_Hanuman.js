@@ -109,6 +109,6 @@ document.querySelector(".retour a").addEventListener("click" , function (event){
       });
         container.classList.remove("hidden");
         container.classList.add("visible");
-      }, 200);
+      }, 300);
     }
     
